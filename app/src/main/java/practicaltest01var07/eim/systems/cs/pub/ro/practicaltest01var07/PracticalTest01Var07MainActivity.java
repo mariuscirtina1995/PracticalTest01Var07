@@ -33,10 +33,6 @@ public class PracticalTest01Var07MainActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(getApplicationContext(), PracticalTestV1Var07SecondaryActivity.class);
 
-                    /*
-                    int numberOfClicks = Integer.parseInt(leftEditText.getText().toString()) +
-                            Integer.parseInt(rightEditText.getText().toString());
-*/
                     int number1 = Integer.parseInt(textBox1.getText().toString());
                     intent.putExtra("editText1", number1);
 
@@ -59,6 +55,18 @@ public class PracticalTest01Var07MainActivity extends AppCompatActivity {
 
     public boolean CheckNumbers()
     {
+        if(Integer.parseInt(textBox1.getText().toString()) == 0)
+            return false;
+
+        if(Integer.parseInt(textBox2.getText().toString()) == 0)
+            return false;
+
+        if(Integer.parseInt(textBox3.getText().toString()) == 0)
+            return false;
+
+        if(Integer.parseInt(textBox4.getText().toString()) == 0)
+            return false;
+
         return true;
     }
 

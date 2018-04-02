@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:saveEnabled="false"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/editText2"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:saveEnabled="false"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
     </LinearLayout>
 
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:saveEnabled="false"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/editText4"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:saveEnabled="false"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
     </LinearLayout>
 
     <Button
